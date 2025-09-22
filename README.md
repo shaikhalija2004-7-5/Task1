@@ -24,7 +24,6 @@ The goal is to deliver a clean, structured, and analysis-ready dataset.
 
 ### 1. Load the Raw Dataset
 - Excel: Open the file directly.
-- `read_excel()` to load the data.
 
 ### 2. Inspect the Data
 - Check data types, null values, and summary statistics.
@@ -35,7 +34,7 @@ The goal is to deliver a clean, structured, and analysis-ready dataset.
 
 ### 3. Handle Missing Values
 - Options include:
-  - Filling missing values with Find and Replace tools 
+  - Filling missing values with Find and Replace tools (give "Unknown & Not Defined")
 
 ### 4. Remove Duplicates
 - Excel: Use "Remove Duplicates" from the Data tab.
@@ -43,6 +42,11 @@ The goal is to deliver a clean, structured, and analysis-ready dataset.
 ### 5. Standardize Formats
 - Normalize text casing (e.g., upper case for headings  and proper case for title , etc.)
 - Rename columns for clarity and consistency
+
+###6. Prepare 3 sheets 
+  - First for Raw data
+  - Second sheet use for clean datasets with the help of tools
+  - Third sheet for use as a main data name given that : "Cleaned_data"
 
 ### 6. Save the Cleaned Dataset
 - Excel: Save as a new file (e.g., `cleaned_data.xlsx`)
