@@ -43,12 +43,12 @@ The goal is to deliver a clean, structured, and analysis-ready dataset.
 - Normalize text casing (e.g., upper case for headings  and proper case for title , etc.)
 - Rename columns for clarity and consistency
 
-###6. Prepare 3 sheets 
+### 6. Prepare 3 sheets
   - First for Raw data
   - Second sheet use for clean datasets with the help of tools
   - Third sheet for use as a main data name given that : "Cleaned_data"
 
-### 6. Save the Cleaned Dataset
+### 7. Save the Cleaned Dataset
 - Excel: Save as a new file (e.g., `cleaned_data.xlsx`)
 
 ---
